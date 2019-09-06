@@ -3,6 +3,7 @@ services:
   base:
     image: node:10-jessie-slim
     volumes:
+      - nodemodules:/usr/src/app/node_modules
       - .:/usr/src/app
     working_dir: /usr/src/app
   install:
@@ -13,3 +14,6 @@ services:
     extends:
       service: base
     command: npm run build
+volumes:
+  nodemodules: 
+    external: true
