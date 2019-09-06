@@ -7,9 +7,15 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
+            "name": "Chrome Linux",
             "url": "http://localhost:1234",
-            "webRoot": "${workspaceFolder}"
+            "webRoot": "${workspaceFolder}",
+            "runtimeExecutable": "/opt/google/chrome/chrome",
+            "runtimeArgs": [
+                "--remote-debugging-port=9222",
+                "--incognito",
+                "--user-data-dir=/tmp/remote-profile"           
+            ]
         }
     ]
 }
