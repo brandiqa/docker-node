@@ -1,6 +1,8 @@
 # Website Service
 
-This is a container service that provides the web user interface. Frontend library is [React](https://reactjs.org) and the project builder is [Parcel JS](https://www.parceljs.org)
+This is a Docker Container service that provides the web user interface.
+
+Frontend library is [React](https://reactjs.org) and the project builder is [Parcel JS](https://www.parceljs.org)
 
 ## Requirements
 
@@ -9,4 +11,9 @@ This is a container service that provides the web user interface. Frontend libra
 
 ## How to setup a project
 
-[TODO]
+On Windows, install make using Chocolatey.
+
+```bash
+cd website
+make
+```
