@@ -9,25 +9,28 @@
     "watch": "parcel watch src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
-    "@babel/preset-react": "^7.0.0",
-    "parcel-bundler": "^1.12.3"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brandiqa/docker-node.git"
   },
-  "keywords": ["docker", "react", "NodeJs"],
+  "keywords": [
+    "docker",
+    "react",
+    "NodeJs"
+  ],
   "author": "Michael Wanyoike",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/brandiqa/docker-node/issues"
   },
-  "homepage": "https://github.com/brandiqa/docker-node#readme"
+  "homepage": "https://github.com/brandiqa/docker-node#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/preset-react": "^7.10.1",
+    "parcel-bundler": "^1.12.4"
+  }
 }
