@@ -1,4 +1,4 @@
-FROM node:10-jessie-slim
+FROM node:slim
 WORKDIR /app
 COPY package*.json /app/
 RUN npm install

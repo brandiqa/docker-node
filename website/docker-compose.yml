@@ -1,7 +1,7 @@
 version: '3'
 services:
   dev:
-    image: node:10-jessie-slim
+    image: node:slim
     volumes:
       - nodemodules:/usr/src/app/node_modules
       - .:/usr/src/app
